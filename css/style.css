@@ -1,0 +1,112 @@
+.container{
+    width: 400px;
+   margin: 0 auto;
+}
+.inputForm {
+    padding: 20px 0px;
+    box-shadow: 1px 1px 21px #ddd;
+    margin: 40px 0px;
+    border-bottom: 5px solid orangered;
+}
+
+#heading {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: orangered;
+    text-align: center;
+}
+#subform{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#input-text {
+    padding: 12px 30px 10px 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #E8F0FE;
+}
+#input-text:focus{
+    border: none;
+}
+#createTask {
+    padding: 11px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    background: orangered;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.searchBox {
+    display: flex;
+    justify-content: space-between;
+}
+#allBooks{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#filtering {
+    height: 20px;
+    display: inline-block;
+    padding: 8px 30px 8px 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #E8F0FE;
+    margin-top: 15px;
+}
+#filtering:focus{
+    border: none;
+}
+#clearTask{
+    padding: 11px;
+    border: none;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    border-radius: 2px;
+    background: orangered;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+ul#list {
+    list-style-type: none;
+    padding: 0;
+}
+#lists{
+    /* display: flex !important; */
+}
+
+#list li {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#list li button{
+padding: 7px;
+border: none;
+font-family: Arial,
+Helvetica,
+sans-serif;
+border-radius: 2px;
+background: orangered;
+color: #fff;
+font-size: 14px;
+cursor: pointer;
+}
+.resultBox {
+    padding: 20px 15px;
+    box-shadow: 1px 1px 21px #ddd;
+    margin: 40px 0px;
+    border-bottom: 5px solid orangered;
+}
